@@ -3,7 +3,7 @@ body {
   font-family: 'Josefin Slab', serif;
   margin: 0;
   padding: 0;
-  background: #fff9e6;
+  background-image: url("../images/background.jpg");
 }
 
 
@@ -110,22 +110,28 @@ h2 {
 
 .text_menu{
     max-width: 760px;
+background-color:rgba(255, 255, 255, 0.5);
+    padding: 2em;
 }
 
 .text_menu p{
   width: 100%;
     text-align: right;
     font-size: 20px;
+      line-height: 115%;
 }
 
 .text_block {
-  max-width: 400px;
+  max-width: 550px;
+  background-color:rgba(255, 255, 255, 0.5);
+      padding: 2em;
 }
 
 .text_block p{
 width: 100%;
   text-align: right;
   font-size: 20px;
+  line-height: 115%;
 }
 
 .video_block {
@@ -150,13 +156,14 @@ width: 100%;
 
 a {
   text-decoration: none;
-  color: #cc9900;
+  color: #cc9600;
 }
 
 li {
   padding: 1em;
 padding-right: 10em;
-color: #cc9900;
+color: #cc9600;
+background-color:rgba(255, 255, 255, 0.5);
   border-radius: 5px 5px 5px 5px;
   -moz-border-radius: 5px 5px 5px 5px;
   -webkit-border-radius: 5px 5px 5px 5px;
@@ -176,4 +183,15 @@ ol {
   margin: 5em;
   font-family: 'Neucha', cursive;
   padding-top: 0;
+}
+
+
+footer{
+  display: flex;
+  justify-content: space-around;
+}
+
+footer p{
+  margin-top: 3em;
+  margin-bottom: 1em;
 }
