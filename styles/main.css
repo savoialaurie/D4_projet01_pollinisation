@@ -157,9 +157,10 @@ width: 100%;
 a {
   text-decoration: none;
   color: #cc9600;
+
 }
 
-li {
+li a{
   padding: 1em;
 padding-right: 10em;
 color: #cc9600;
@@ -173,10 +174,16 @@ background-color:rgba(255, 255, 255, 0.5);
 transition: 0.25s;
 }
 
-li:hover {
+li a:hover {
   -webkit-box-shadow: 10px 10px 35px 0px rgba(255,223,128,1);
 -moz-box-shadow: 10px 10px 35px 0px rgba(255,223,128,1);
 box-shadow: 10px 10px 35px 0px rgba(255,223,128,1);
+}
+
+li{
+  width: 100%;
+  padding: 1em;
+  color: #cc9600;
 }
 
 ol {
