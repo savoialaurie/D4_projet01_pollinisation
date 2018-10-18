@@ -6,57 +6,59 @@ body {
   background-image: url("../images/background.jpg");
 }
 
-
 h1 {
   font-family: 'Neucha', cursive;
   color: #cc9900;
-   font-size : 1em;
-   margin-left: 1em;
-   margin-bottom: 0;
+  font-size: 1em;
+  margin-left: 1em;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 h2 {
   font-size: 1em;
   margin-left: 4em;
   margin-top: 0;
+  margin-bottom: 0;
   color: #cc9900;
 }
 
 @media screen and (min-width: 320px) {
-    h1 {
-    font-size : 3em;
-    }
-    h2 {
-      font-size : 1em;
-    }
+  h1 {
+    font-size: 3em;
   }
+  h2 {
+    font-size: 1em;
+  }
+}
 
 @media screen and (min-width: 640px) {
-    h1 {
-   font-size : 5em;
-    }
-    h2 {
-      font-size : 2em;
-    }
+  h1 {
+    font-size: 5em;
   }
+  h2 {
+    font-size: 2em;
+  }
+}
 
 @media screen and (min-width: 1028px) {
-    h1 {
-   font-size : 6em;
-    }
-    h2 {
-      font-size : 3em;
-    }
+  h1 {
+    font-size: 6em;
   }
+  h2 {
+    font-size: 3em;
+  }
+}
 
 @media screen and (min-width: 1280px) {
-    h1 {
-   font-size : 8em;
-    }
-    h2 {
-      font-size : 3em;
-    }
+  h1 {
+    font-size: 8em;
   }
+  h2 {
+    font-size: 3em;
+  }
+}
+
 }
 
 .container_menu {
@@ -75,7 +77,6 @@ h2 {
 #menu {
   margin-left: 80px;
   margin-top: 60px;
-
 }
 
 #image_lien {
@@ -86,15 +87,23 @@ h2 {
   min-width: 100px;
 }
 
-.image_block{
-  max-width: 800px;
+.image_block {
+  max-width: 950px;
 }
 
-.image_block img{
+.image_block_menu{
+  max-width: 590px;
+}
+
+.image_block_menu img{
   width: 100%;
 }
 
-.container_1{
+.image_block img {
+  width: 100%;
+}
+
+.container_1 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -108,79 +117,77 @@ h2 {
   justify-content: space-around;
 }
 
-.text_menu{
-    max-width: 760px;
-background-color:rgba(255, 255, 255, 0.5);
-    padding: 2em;
+.text_menu {
+  max-width: 760px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1em;
 }
 
-.text_menu p{
+.text_menu p {
   width: 100%;
-    text-align: right;
-    font-size: 20px;
-      line-height: 115%;
+  text-align: right;
+  font-size: 20px;
+  line-height: 115%;
 }
 
 .text_block {
   max-width: 550px;
-  background-color:rgba(255, 255, 255, 0.5);
-      padding: 2em;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1em;
 }
 
-.text_block p{
-width: 100%;
+.text_block p {
+  width: 100%;
   text-align: right;
   font-size: 20px;
   line-height: 115%;
 }
 
 .video_block {
-  max-width: 400px;
+  max-width: 350px;
 }
 
-.video_block video{
+.video_block video {
   width: 100%;
   height: auto;
 }
 
-.link_block{
-    max-width: 800px;
+.link_block {
+  max-width: 800px;
 }
 
-.link_block ul{
+.link_block ul {
   width: 100%;
   height: auto;
-    color: #cc9900;
+  color: #cc9900;
 }
-
 
 a {
   text-decoration: none;
   color: #cc9600;
-
 }
 
-li a{
+li a {
   padding: 1em;
-padding-right: 10em;
-color: #cc9600;
-background-color:rgba(255, 255, 255, 0.5);
+  padding-right: 10em;
+  color: #cc9600;
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 5px 5px 5px 5px;
   -moz-border-radius: 5px 5px 5px 5px;
   -webkit-border-radius: 5px 5px 5px 5px;
-  -webkit-box-shadow: 10px 10px 28px 0px rgba(255,236,179,0.57);
-  -moz-box-shadow: 10px 10px 28px 0px rgba(255,236,179,0.57);
-  box-shadow: 10px 10px 28px 0px rgba(255,236,179,0.57);
-transition: 0.25s;
+  -webkit-box-shadow: 10px 10px 28px 0px rgba(255, 236, 179, 0.57);
+  -moz-box-shadow: 10px 10px 28px 0px rgba(255, 236, 179, 0.57);
+  box-shadow: 10px 10px 28px 0px rgba(255, 236, 179, 0.57);
+  transition: 0.25s;
 }
 
 li a:hover {
-  -webkit-box-shadow: 10px 10px 35px 0px rgba(255,223,128,1);
--moz-box-shadow: 10px 10px 35px 0px rgba(255,223,128,1);
-box-shadow: 10px 10px 35px 0px rgba(255,223,128,1);
+  -webkit-box-shadow: 10px 10px 35px 0px rgba(255, 223, 128, 1);
+  -moz-box-shadow: 10px 10px 35px 0px rgba(255, 223, 128, 1);
+  box-shadow: 10px 10px 35px 0px rgba(255, 223, 128, 1);
 }
 
-li{
+li {
   width: 100%;
   padding: 1em;
   color: #cc9600;
@@ -192,13 +199,11 @@ ol {
   padding-top: 0;
 }
 
-
-footer{
+footer {
   display: flex;
   justify-content: space-around;
 }
 
-footer p{
-  margin-top: 3em;
-  margin-bottom: 1em;
+footer p {
+  margin-top: 0;
 }
